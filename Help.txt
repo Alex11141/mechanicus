@@ -1,0 +1,25 @@
+1) Make new VENV
+
+directory> python -m venv myvenv
+
+2) Start Venv
+
+directory> myvenv\Scripts\activate
+
+3) Upgrade pip
+
+(myvenv) python -m pip install --upgrade pip
+
+4) Install Django:
+
+requirements.txt ? ????????? Django~=3.0.5
+
+5) Install All requirements from the file
+
+6) Project start
+
+directory > django-admin.exe startproject <proj_name>
+
+7) Start app
+
+directory > python manage.py startapp <app_name>
